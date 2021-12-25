@@ -98,7 +98,7 @@ const listTaskDelete = async (tasks = []) => {
 	const questions = [
 		{
 			type: 'list',
-			name: 'íd',
+			name: 'id',
 			message: 'Delete',
 			choices
 		}
